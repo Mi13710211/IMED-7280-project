@@ -1,10 +1,10 @@
 # Analysis Pipeline 
 
 ## Overview
-This pipeline outlines the data data wrangling, differential expression analysis, regression modeling, and correlation analysis.
+This pipeline outlines the data wrangling, differential expression analysis, regression modeling, and correlation analysis.
 
 
-## 1. Input first Data
+## 1. Input the first Data
 - Bulk RNA-seq count matrix from the GEO dataset (GSE255720).
 
 
@@ -39,7 +39,7 @@ This pipeline outlines the data data wrangling, differential expression analysis
 
 ## 5. GSEA and barplot
 
-- Imported the sgnificant differential genes with ENSEMBL_ID
+- Imported the significant differential genes with ENSEMBL_ID
 
 - Biological function analysis
 
@@ -49,7 +49,7 @@ This pipeline outlines the data data wrangling, differential expression analysis
 
 
 ## 6. Visualization: Volcano Plot of Ig expression
-- Determin the constant region of Ig genes as the target genes
+- Determine the constant region of Ig genes as the target genes
 
 - Turn off other genes
 
@@ -57,7 +57,7 @@ This pipeline outlines the data data wrangling, differential expression analysis
 
 
 ````````````````````````````````````````````````````````````````````````````````````````````````
-## 1. Input second Data
+## 1. Input the second Data
 - Microarray expression matrix from GEO dataset (GSE206171).
 
 ## 2. Data Wrangling
@@ -97,7 +97,7 @@ This pipeline outlines the data data wrangling, differential expression analysis
 
  ```
   
-## 4. Correlation Analysis Between FDCSP, TNF-A, and B-Cell Markers
+## 6. Correlation Analysis Between FDCSP, TNF-A, and B-Cell Markers
 - Select genes for analysis:
  
 - Compute correlation matrix:
